@@ -26,7 +26,7 @@ CREATE TABLE veterinario (
 	telefone VARCHAR(100), 
     
     senha_hash VARCHAR(255) NOT NULL
-
+  
 );
 
 
@@ -112,4 +112,4 @@ CREATE TABLE animal (
 		REFERENCES veterinario(id_veterinario)
 
 );
- ,,,,
+ 
