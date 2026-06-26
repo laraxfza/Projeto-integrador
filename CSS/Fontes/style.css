@@ -1,0 +1,40 @@
+/* FONTES E TIPOGRAFIAS */
+/* 
+Propriedades Básicas::
+
+font-family: Define a família da fonte;
+font size: Tamanho da fonte (px, em, rem, %);
+color: Atribuindo uma cor ao texto;
+line-height: Altura da linha (Espaçamento entre linhas)
+font-weight: Espessura do texto (normal, bold, semibold, 300, 500, 700);
+text-align: Alinhamento (left, center, ridght, justify);
+*/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #105e2e;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+}
+/* Importando fontes do Google fonts */
+/* 
+1- Abrir Google Font no mavegador
+2- Escolher fonte
+3- Obter código de importação
+4- Adicionar link ao HTML
+5- Aplicar font-family no meu CSS
+*/
+.titulo{
+    font-family: "Shadows Into Light", cursive;
+
+}
+ /* Decoração e transformação
+ text-transform: Vai alterar o texto para Minúsculo (uppercase) ou Minúsculo (lowercase)
+ text-shadow: Aplica um efeito de sombra ao nosso texto;
+ */
+.sub-titulo{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 5px #dedada
+}

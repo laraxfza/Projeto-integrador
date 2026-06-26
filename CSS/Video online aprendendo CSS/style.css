@@ -1,0 +1,182 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cabin", sans-serif;
+    background: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+header h1 {
+    margin-bottom: 0.8rem;
+    font-size: 2.2rem;
+}
+
+/* Conteúdo */
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Cards */
+section {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+section:hover {
+    transform: translateY(-3px);
+}
+
+h2 {
+    color: #1e40af;
+    margin-bottom: 1rem;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border: 2px solid #d1d5db;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 8px rgba(37, 99, 235, 0.2);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #2563eb;
+}
+
+/* Imagem */
+img {
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+th {
+    background: #2563eb;
+    color: white;
+    padding: 1rem;
+}
+
+td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+tfoot td {
+    background: #1e40af;
+    color: white;
+    font-weight: bold;
+}
+
+/* Details */
+details {
+    background: #eef4ff;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #1e40af;
+}
+
+/* Fieldset */
+fieldset {
+    border: 2px solid #dbeafe;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+legend {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* Botão */
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 0.9rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background: #1e40af;
+    transform: scale(1.03);
+}
+
+/* Rodapé */
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
